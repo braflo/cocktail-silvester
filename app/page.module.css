@@ -1,0 +1,19 @@
+.main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: auto;
+  padding: 84px 8px 32px 8px;
+  margin: auto;
+  grid-column-gap: 64px;
+  grid-row-gap: 64px;
+  background: linear-gradient(#5680e9, transparent),
+    linear-gradient(to top left, #8860d0, transparent),
+    linear-gradient(to top right, #84ceeb, transparent);
+  background-blend-mode: screen;
+  @media screen and (max-width: 768px) {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-column-gap: 32px;
+    grid-row-gap: 32px;
+    padding: 84px 0px 32px 0px;
+  }
+}

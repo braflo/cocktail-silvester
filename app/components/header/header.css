@@ -1,0 +1,19 @@
+header {
+  background: linear-gradient(#8860d0, transparent),
+    linear-gradient(to top left, #5680e9, transparent),
+    linear-gradient(to top right, #8860d0, transparent);
+  background-blend-mode: screen;
+  color: #dcdcdc;
+  text-align: center;
+  height: 72px;
+  margin: auto;
+  position: fixed;
+  width: 100%;
+}
+h1 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

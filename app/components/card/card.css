@@ -1,0 +1,40 @@
+.card {
+  display: grid;
+  grid-template-columns: 16px calc(100%-32px) 16px;
+  border-radius: 12px;
+  background-color: rgba(238, 240, 241, 0.5);
+  > * {
+    grid-column: 2;
+  }
+  overflow: hidden;
+}
+img {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  grid-column: 1 / 4;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.flag-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.flag {
+  display: inline-block;
+  padding: 4px;
+  border-radius: 4px;
+  margin: 4px;
+}
+h2 {
+  display: block;
+  padding-top: 4%;
+  margin: 0 auto;
+  padding: 4px 0px;
+  color: var(--color-dark-blue);
+  text-align: center;
+  min-height: 30px;
+}
