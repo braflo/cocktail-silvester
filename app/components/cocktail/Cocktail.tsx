@@ -11,6 +11,7 @@ const Cocktail = ({ cocktail, onClose }: CocktailProps) => {
   return (
     <div className="cocktail">
       <button onClick={onClose}>X</button>
+      {/* eslint-disable-next-line @next/next/no-img-element*/}
       <img className="img-detail" src={img} alt={name} />
       <div className="cocktail-info">
         <h3>{name}</h3>

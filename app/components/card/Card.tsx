@@ -8,6 +8,7 @@ interface CardProps {
 const Card = ({ cocktail }: CardProps) => {
   return (
     <div className="card">
+      {/* eslint-disable-next-line @next/next/no-img-element*/}
       <img src={cocktail.img} alt="" />
       <h2>{cocktail.name}</h2>
       <div className="flag-container"></div>
