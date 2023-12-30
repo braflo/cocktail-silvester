@@ -16,10 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body id="root" className={inter.className}>
-        <div id="modal"></div>
-        {children}
-      </body>
+      <body className={inter.className}>{children}</body>
     </html>
   )
 }
