@@ -4,7 +4,7 @@ import styles from "./page.module.css"
 import { Header } from "./components/header/Header"
 import { Card } from "./components/card/Card"
 import { COCKTAILS } from "./@types/constants"
-import React, { useEffect } from "react"
+import React from "react"
 import { Cocktail } from "./@types/cocktail"
 import { Cocktail as CocktailComponent } from "./components/cocktail/Cocktail"
 
