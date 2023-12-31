@@ -15,7 +15,7 @@ export const COCKTAILS: Cocktail[] = [
       {
         name: "Angostura Bitters",
         enumLink: Mixers.AngosturaBitters,
-        volume: "2 dashes",
+        volume: "4 dashes",
       },
       {
         name: "Demerara Syrup",
@@ -94,17 +94,22 @@ export const COCKTAILS: Cocktail[] = [
       {
         name: "Vodka",
         enumLink: Spirits.Vodka,
-        volume: "1.5 oz",
+        volume: "1 oz",
       },
       {
         name: "Coffee Liqueur",
         enumLink: Mixers.CoffeeLiqueur,
-        volume: "0.75 oz",
+        volume: "1 oz",
       },
       {
         name: "Espresso",
         enumLink: Mixers.Espresso,
         volume: "1 oz",
+      },
+      {
+        name: "Demerara Syrup",
+        enumLink: Mixers.DemeraraSyrup,
+        volume: "0.25 oz",
       },
     ],
     img: "https://www.thecocktaildb.com/images/media/drink/n0sx531504372951.jpg",
@@ -211,7 +216,7 @@ export const COCKTAILS: Cocktail[] = [
       {
         name: "Simple Syrup",
         enumLink: Mixers.SimpleSyrup,
-        volume: "0.5 oz",
+        volume: "0.75 oz",
       },
       {
         name: "Champagne",
@@ -234,7 +239,7 @@ export const COCKTAILS: Cocktail[] = [
       {
         name: "Lemon Juice",
         enumLink: Mixers.LemonJuice,
-        volume: "0.5 oz",
+        volume: "0.75 oz",
       },
       {
         name: "Maraschino Liqueur",
@@ -262,7 +267,7 @@ export const COCKTAILS: Cocktail[] = [
       {
         name: "Lemon Juice",
         enumLink: Mixers.LemonJuice,
-        volume: "0.75 oz",
+        volume: "1 oz",
       },
       {
         name: "Ginger Beer",
