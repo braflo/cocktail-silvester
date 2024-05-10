@@ -4,8 +4,10 @@
   align-items: center;
   justify-content: flex-start;
   width: 100%;
-  height: calc(100vh - 120px);
-  padding: 0px 16px;
+  height: 100vh;
+  padding: calc(var(--header-height) + 16px) 16px 16px 16px;
+  background-color: var(--color-dark-blue);
+  color: var(--color-gold);
 }
 button {
   --size: 32px;

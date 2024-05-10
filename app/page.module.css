@@ -6,10 +6,12 @@
   margin: auto;
   grid-column-gap: 64px;
   grid-row-gap: 64px;
-  background: linear-gradient(#5680e9, transparent),
+  background-color: var(--color-dark-blue);
+  color: var(--color-gold);
+  /* background: linear-gradient(#5680e9, transparent),
     linear-gradient(to top left, #8860d0, transparent),
     linear-gradient(to top right, #84ceeb, transparent);
-  background-blend-mode: screen;
+  background-blend-mode: screen; */
   @media screen and (max-width: 768px) {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-column-gap: 32px;

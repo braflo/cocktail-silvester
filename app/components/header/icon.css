@@ -1,0 +1,19 @@
+svg {
+  width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px); content-visibility: visible;
+}
+
+.olive_0, .olive_1, .olive_2 {
+  display: block;
+}
+
+.drink {
+  display: block;
+}
+
+.sparkle_0, .sparkle_1 {
+  display: block;
+}
+
+.glass {
+  display: block;
+}

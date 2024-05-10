@@ -6,8 +6,8 @@ import { ReactNode } from "react"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Sylvester Cocktails",
-  description: "Simple Cocktail Site",
+  title: "Classic & Custom Cocktails",
+  description: "Classic & Custom Cocktails",
 }
 
 export type LayoutProps = {
@@ -18,7 +18,9 @@ export type LayoutProps = {
 export default function RootLayout({ children }: LayoutProps) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        {children}
+      </body>
     </html>
   )
 }
