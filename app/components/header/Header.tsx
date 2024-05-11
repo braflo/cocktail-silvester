@@ -5,8 +5,10 @@ import { Icon } from "./Icon";
 const Header = () => {
   return (
     <header>
-      <Icon />
-      <h1>Bam-booze-led!</h1>
+      <div className="container">
+        <Icon />
+        <h1>Bam-booze-led!</h1>
+      </div>
     </header>
   )
 }

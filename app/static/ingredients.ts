@@ -5,10 +5,10 @@ export enum Spirits {
   RumBlack = "Spirits-2",
   RumWhite = "Spirits-3",
   Vodka = "Spirits-4",
+  Whiskey = "Spirits-5"
 }
 
 export enum Mixers {
-  // sort Mixers enum alphabetically
   AngosturaBitters = "Mixers-0",
   Aquafaba = "Mixers-1",
   Champagne = "Mixers-2",

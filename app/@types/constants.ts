@@ -312,4 +312,27 @@ export const COCKTAILS: Cocktail[] = [
     isAlcoholfree: true,
     img: "https://www.thecocktaildb.com/images/media/drink/2x8thr1504816928.jpg",
   },
+  {
+    name: "Mint Julep",
+    description:
+      "A classic cocktail that never goes out of style. The Mint Julep is a simple drink that is easy to make and quick to enjoy.",
+    ingredients: [
+      {
+        name: "Bourbon",
+        enumLink: Spirits.Bourbon,
+        volume: "2 oz",
+      },
+      {
+        name: "Demerara Syrup",
+        enumLink: Mixers.DemeraraSyrup,
+        volume: "0.5 oz",
+      },
+      {
+        name: "Mint Leaves",
+        enumLink: Garnishes.MintLeaves,
+        volume: "4",
+      },
+    ],
+    img: "https://www.thecocktaildb.com/images/media/drink/squyyq1439907312.jpg",
+  },
 ]
