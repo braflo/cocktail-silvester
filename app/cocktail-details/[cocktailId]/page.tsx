@@ -5,14 +5,14 @@ import { COCKTAILS } from "../../@types/constants";
 import { Cocktail } from "../../components/cocktail/Cocktail";
 
 interface CocktailDetailsPageProps {
-  params: { cocktailId: number}
+  params: { cocktailId: number }
 }
 
 const CocktailDetailsPage = ({ params: {cocktailId} }: CocktailDetailsPageProps) => {
   const router = useRouter();
   return <div>
-    <Header />
-    <Cocktail cocktail={COCKTAILS[+cocktailId]} onClose={() => router.push("/")}/>
+      <Header />
+      <Cocktail cocktail={COCKTAILS[+cocktailId]} onClose={() => router.back() }/>
     </div>
 }
 export default CocktailDetailsPage;

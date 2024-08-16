@@ -1,8 +1,9 @@
-import { Garnishes, Mixers, Spirits } from "../static/ingredients"
+import { Garnishes, Mixers, Spirits } from "../static/ingredients";
+
+export type CocktailIngredient = Spirits | Mixers;
 
 export interface Ingredient {
-  name: string
-  enumLink: Spirits | Mixers | Garnishes
+  name: CocktailIngredient | Garnishes
   volume: string
 }
 

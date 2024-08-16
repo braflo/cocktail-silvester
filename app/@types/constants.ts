@@ -1,4 +1,3 @@
-import { Garnishes, Mixers, Spirits } from "../static/ingredients"
 import { Cocktail } from "./cocktail"
 
 export const COCKTAILS: Cocktail[] = [
@@ -9,22 +8,18 @@ export const COCKTAILS: Cocktail[] = [
     ingredients: [
       {
         name: "Bourbon",
-        enumLink: Spirits.Bourbon,
         volume: "2 oz",
       },
       {
         name: "Angostura Bitters",
-        enumLink: Mixers.AngosturaBitters,
         volume: "4 dashes",
       },
       {
         name: "Demerara Syrup",
-        enumLink: Mixers.DemeraraSyrup,
         volume: "0.25 oz",
       },
       {
         name: "Orange Peel",
-        enumLink: Garnishes.OrangeWedge,
         volume: "1",
       },
     ],
@@ -37,27 +32,22 @@ export const COCKTAILS: Cocktail[] = [
     ingredients: [
       {
         name: "White Rum",
-        enumLink: Spirits.RumWhite,
         volume: "2 oz",
       },
       {
         name: "Lime Juice",
-        enumLink: Mixers.LimeJuice,
         volume: "0.75 oz",
       },
       {
         name: "Simple Syrup",
-        enumLink: Mixers.SimpleSyrup,
         volume: "0.75 oz",
       },
       {
         name: "Mint Leaves",
-        enumLink: Garnishes.MintLeaves,
         volume: "6",
       },
       {
         name: "Soda Water",
-        enumLink: Mixers.SodaWater,
         volume: "1 oz",
       },
     ],
@@ -70,17 +60,14 @@ export const COCKTAILS: Cocktail[] = [
     ingredients: [
       {
         name: "Black Rum",
-        enumLink: Spirits.RumBlack,
         volume: "2 oz",
       },
       {
         name: "Ginger Beer",
-        enumLink: Mixers.GingerBeer,
         volume: "4 oz",
       },
       {
         name: "Lime Wedge",
-        enumLink: Garnishes.LimeWedge,
         volume: "1",
       },
     ],
@@ -93,22 +80,18 @@ export const COCKTAILS: Cocktail[] = [
     ingredients: [
       {
         name: "Vodka",
-        enumLink: Spirits.Vodka,
         volume: "1 oz",
       },
       {
         name: "Coffee Liqueur",
-        enumLink: Mixers.CoffeeLiqueur,
         volume: "1 oz",
       },
       {
         name: "Espresso",
-        enumLink: Mixers.Espresso,
         volume: "1 oz",
       },
       {
         name: "Demerara Syrup",
-        enumLink: Mixers.DemeraraSyrup,
         volume: "0.25 oz",
       },
     ],
@@ -121,22 +104,18 @@ export const COCKTAILS: Cocktail[] = [
     ingredients: [
       {
         name: "Gin",
-        enumLink: Spirits.Gin,
         volume: "2 oz",
       },
       {
         name: "Lemon Juice",
-        enumLink: Mixers.LemonJuice,
         volume: "0.75 oz",
       },
       {
         name: "Simple Syrup",
-        enumLink: Mixers.SimpleSyrup,
         volume: "0.75 oz",
       },
       {
         name: "Soda Water",
-        enumLink: Mixers.SodaWater,
         volume: "1 oz",
       },
     ],
@@ -149,17 +128,14 @@ export const COCKTAILS: Cocktail[] = [
     ingredients: [
       {
         name: "White Rum",
-        enumLink: Spirits.RumWhite,
         volume: "2 oz",
       },
       {
         name: "Lime Juice",
-        enumLink: Mixers.LimeJuice,
         volume: "0.75 oz",
       },
       {
         name: "Simple Syrup",
-        enumLink: Mixers.SimpleSyrup,
         volume: "0.75 oz",
       },
     ],
@@ -172,27 +148,22 @@ export const COCKTAILS: Cocktail[] = [
     ingredients: [
       {
         name: "Gin",
-        enumLink: Spirits.Gin,
         volume: "1.5 oz",
       },
       {
         name: "Lemon Juice",
-        enumLink: Mixers.LemonJuice,
         volume: "0.75 oz",
       },
       {
         name: "Raspberry Syrup",
-        enumLink: Mixers.RaspberrySyrup,
         volume: "0.75 oz",
       },
       {
         name: "Aquafaba",
-        enumLink: Mixers.Aquafaba,
         volume: "0.75 oz",
       },
       {
         name: "Raspberry",
-        enumLink: Garnishes.Raspberry,
         volume: "3",
       },
     ],
@@ -205,22 +176,18 @@ export const COCKTAILS: Cocktail[] = [
     ingredients: [
       {
         name: "Gin",
-        enumLink: Spirits.Gin,
         volume: "1.5 oz",
       },
       {
         name: "Lemon Juice",
-        enumLink: Mixers.LemonJuice,
         volume: "0.75 oz",
       },
       {
         name: "Simple Syrup",
-        enumLink: Mixers.SimpleSyrup,
         volume: "0.75 oz",
       },
       {
         name: "Champagne",
-        enumLink: Mixers.Champagne,
         volume: "2 oz",
       },
     ],
@@ -233,22 +200,18 @@ export const COCKTAILS: Cocktail[] = [
     ingredients: [
       {
         name: "Gin",
-        enumLink: Spirits.Gin,
         volume: "2 oz",
       },
       {
         name: "Lemon Juice",
-        enumLink: Mixers.LemonJuice,
         volume: "0.75 oz",
       },
       {
         name: "Maraschino Liqueur",
-        enumLink: Mixers.MarashinoLiqueur,
         volume: "0.5 oz",
       },
       {
         name: "Creme de Violette",
-        enumLink: Mixers.CremeDeViolette,
         volume: "0.25 oz",
       },
     ],
@@ -261,22 +224,18 @@ export const COCKTAILS: Cocktail[] = [
     ingredients: [
       {
         name: "Thyme Syrup",
-        enumLink: Mixers.ThymeSyrup,
         volume: "1 oz",
       },
       {
         name: "Lemon Juice",
-        enumLink: Mixers.LemonJuice,
         volume: "1 oz",
       },
       {
         name: "Ginger Beer",
-        enumLink: Mixers.GingerBeer,
         volume: "2 oz",
       },
       {
         name: "Thyme",
-        enumLink: Garnishes.Thyme,
         volume: "1",
       },
     ],
@@ -290,22 +249,18 @@ export const COCKTAILS: Cocktail[] = [
     ingredients: [
       {
         name: "Mint Leaves",
-        enumLink: Garnishes.MintLeaves,
         volume: "6",
       },
       {
         name: "Lime Juice",
-        enumLink: Mixers.LimeJuice,
         volume: "0.75 oz",
       },
       {
         name: "Simple Syrup",
-        enumLink: Mixers.SimpleSyrup,
         volume: "0.75 oz",
       },
       {
         name: "Soda Water",
-        enumLink: Mixers.SodaWater,
         volume: "1 oz",
       },
     ],
@@ -319,17 +274,14 @@ export const COCKTAILS: Cocktail[] = [
     ingredients: [
       {
         name: "Bourbon",
-        enumLink: Spirits.Bourbon,
         volume: "2 oz",
       },
       {
         name: "Demerara Syrup",
-        enumLink: Mixers.DemeraraSyrup,
         volume: "0.5 oz",
       },
       {
         name: "Mint Leaves",
-        enumLink: Garnishes.MintLeaves,
         volume: "4",
       },
     ],

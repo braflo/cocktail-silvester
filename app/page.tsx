@@ -6,8 +6,14 @@ import { Card } from "./components/card/Card"
 import { COCKTAILS } from "./@types/constants"
 import React from "react"
 import Link from "next/link";
+import { useRouter } from "next/navigation";
+import { CocktailIngredient } from "@types";
 
+interface HomeProps {
+  params: { filters: CocktailIngredient }
+}
 export default function Home() {
+  const router = useRouter()
   return (
     <>
       <Header />
