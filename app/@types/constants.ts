@@ -335,4 +335,55 @@ export const COCKTAILS: Cocktail[] = [
     ],
     img: "https://www.thecocktaildb.com/images/media/drink/squyyq1439907312.jpg",
   },
+  {
+    name: "Bees Knees",
+    description:
+      "A classic cocktail that never goes out of style. The Bees Knees is a simple drink that is easy to make and quick to enjoy.",
+    ingredients: [
+      {
+        name: "Gin",
+        enumLink: Spirits.Gin,
+        volume: "2 oz",
+      },
+      {
+        name: "Lemon Juice",
+        enumLink: Mixers.LemonJuice,
+        volume: "0.75 oz",
+      },
+      {
+        name: "Honey Syrup",
+        enumLink: Mixers.HoneySyrup,
+        volume: "0.5 oz",
+      },
+    ],
+    img: "https://www.thecocktaildb.com/images/media/drink/tx8ne41582475326.jpg",
+  },
+  {
+    name: "Everythings gonna bee alright",
+    description: "Flos creation :)",
+    ingredients: [
+      {
+        name: "Lime Juice",
+        enumLink: Mixers.LimeJuice,
+        volume: "1 oz",
+      },
+      {
+        name: "Thyme Syrup",
+        enumLink: Mixers.ThymeSyrup,
+        volume: "0.5 oz",
+      },
+      {
+        name: "Honey Syrup",
+        enumLink: Mixers.HoneySyrup,
+        volume: "0.5 oz",
+      },
+      {
+        name: "Club Mate",
+        enumLink: Mixers.ClubMate,
+        volume: "4 oz",
+      },
+    ],
+    isAlcoholfree: true,
+    img: "https://www.thecocktaildb.com/images/media/drink/duwfa11686236556.jpg",
+  },
 ]
