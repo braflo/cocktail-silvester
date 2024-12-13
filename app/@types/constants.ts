@@ -386,4 +386,68 @@ export const COCKTAILS: Cocktail[] = [
     isAlcoholfree: true,
     img: "https://www.thecocktaildb.com/images/media/drink/duwfa11686236556.jpg",
   },
+  {
+    name: "Amaretto Sour",
+    description: "Babsi's favorite sweety cocktail :)",
+    ingredients: [
+      {
+        name: "Amaretto",
+        enumLink: Spirits.Bourbon,
+        volume: "1.5 oz",
+      },
+      {
+        name: "Bourbon",
+        enumLink: Spirits.Bourbon,
+        volume: "0.5 oz",
+      },
+      {
+        name: "Lemon Juice",
+        enumLink: Mixers.LemonJuice,
+        volume: "1 oz",
+      },
+      {
+        name: "Simple Syrup",
+        enumLink: Mixers.SimpleSyrup,
+        volume: "0.75 oz"
+      },
+      {
+        name: "Aquafaba",
+        enumLink: Mixers.Aquafaba,
+        volume: "0.75 oz",
+      },
+    ],
+    img: "https://www.thecocktaildb.com/images/media/drink/xnzc541493070211.jpg",
+  },
+  {
+    name: "Elk's Own",
+    description: "Fancy wine whisky christmas cockail",
+    ingredients: [
+      {
+        name: "Whisky",
+        enumLink: Spirits.Whiskey,
+        volume: "1 oz"
+      },
+      {
+        name: "Ruby Port Wine",
+        enumLink: Spirits.Bourbon,
+        volume: "0.75 oz"
+      },
+      {
+        name: "Lemon Juice",
+        enumLink: Mixers.LemonJuice,
+        volume: "0.75 oz"
+      },
+      {
+        name: "Aquafaba",
+        enumLink: Mixers.Aquafaba,
+        volume: "0.75 oz"
+      },
+      {
+        name: "Demerara Syrup",
+        enumLink: Mixers.DemeraraSyrup,
+        volume: "0.5 oz"
+      },
+    ],
+    img: "https://www.thecocktaildb.com/images/media/drink/txustu1473344310.jpg"
+  }
 ]
