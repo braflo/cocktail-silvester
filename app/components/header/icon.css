@@ -1,5 +1,5 @@
 svg {
-  transform: rotate(-10deg);
+  transform: scaleX(-1) rotate(6deg);
 }
 
 .olive_0, .olive_1, .olive_2 {
