@@ -3,7 +3,7 @@
 import styles from "./page.module.css"
 import { Header } from "./components/header/Header"
 import { Card } from "./components/card/Card"
-import { COCKTAILS } from "./@types/constants"
+import { COCKTAILS } from "./_types/constants"
 import React from "react"
 import Link from "next/link";
 

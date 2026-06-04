@@ -1,4 +1,4 @@
-import { Cocktail } from "@/app/@types/cocktail"
+import { Cocktail } from "@/app/_types/cocktail"
 import "./card.css"
 
 interface CardProps {

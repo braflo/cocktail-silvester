@@ -12,8 +12,6 @@ export const metadata: Metadata = {
 
 export type LayoutProps = {
   children: ReactNode
-  types: ReactNode
-  params?: any
 }
 export default function RootLayout({ children }: LayoutProps) {
   return (
