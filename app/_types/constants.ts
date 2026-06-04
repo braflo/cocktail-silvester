@@ -29,7 +29,7 @@ export const COCKTAILS: Cocktail[] = [
         volume: "1",
       },
     ],
-    img: "https://www.thecocktaildb.com/images/media/drink/vrwquq1478252802.jpg",
+    img: "/old-fashioned.jpg",
   },
   {
     name: "Dark 'n' Stormy",
@@ -53,7 +53,7 @@ export const COCKTAILS: Cocktail[] = [
         volume: "1",
       },
     ],
-    img: "https://www.thecocktaildb.com/images/media/drink/t1tn0s1504374905.jpg",
+    img: "/dark-n-stormy-vitor-diniz-2.jpg",
   },
   {
     name: "Espresso Martini",
@@ -82,7 +82,7 @@ export const COCKTAILS: Cocktail[] = [
         volume: "0.25 oz",
       },
     ],
-    img: "https://www.thecocktaildb.com/images/media/drink/n0sx531504372951.jpg",
+    img: "/espresso-martini-alex-hoces.jpg",
   },
   {
     name: "Gin Fizz",
@@ -111,7 +111,7 @@ export const COCKTAILS: Cocktail[] = [
         volume: "1 oz",
       },
     ],
-    img: "https://www.thecocktaildb.com/images/media/drink/xhl8q31504351772.jpg",
+    img: "/gin-fizz-airam-dato-on-2.jpg",
   },
   {
     name: "Daiquiri",
@@ -135,7 +135,7 @@ export const COCKTAILS: Cocktail[] = [
         volume: "0.75 oz",
       },
     ],
-    img: "https://www.thecocktaildb.com/images/media/drink/mrz9091589574515.jpg",
+    img: "/daiquiri-esmihel-muhammed.jpg",
   },
   {
     name: "Clover Club",
@@ -169,7 +169,7 @@ export const COCKTAILS: Cocktail[] = [
         volume: "3",
       },
     ],
-    img: "https://www.thecocktaildb.com/images/media/drink/t0aja61504348715.jpg",
+    img: "/clover-club-say-s.jpg",
   },
   {
     name: "French 75",
@@ -227,7 +227,7 @@ export const COCKTAILS: Cocktail[] = [
         volume: "0.25 oz",
       },
     ],
-    img: "https://www.thecocktaildb.com/images/media/drink/ruutxt1478253328.jpg",
+    img: "/aviation-masuma-rahaman-2.jpg",
   },
   {
     name: "A little Thyme off",
@@ -281,7 +281,7 @@ export const COCKTAILS: Cocktail[] = [
         volume: "0.5 oz",
       },
     ],
-    img: "https://www.thecocktaildb.com/images/media/drink/tx8ne41582475326.jpg",
+    img: "/bees-knees-ivan-s.jpg",
   },
   {
     name: "Everythings gonna bee alright",
@@ -310,7 +310,7 @@ export const COCKTAILS: Cocktail[] = [
       },
     ],
     isAlcoholfree: true,
-    img: "https://www.thecocktaildb.com/images/media/drink/duwfa11686236556.jpg",
+    img: "/everythings-gonna-bee-alright-daniel-duarte.jpg",
   },
   {
     name: "Amaretto Sour",
@@ -343,7 +343,7 @@ export const COCKTAILS: Cocktail[] = [
         volume: "0.75 oz",
       },
     ],
-    img: "https://www.thecocktaildb.com/images/media/drink/xnzc541493070211.jpg",
+    img: "/amaretto-sour-poul-hoang.jpg",
   },
   {
     name: "Elk's Own",
@@ -376,7 +376,7 @@ export const COCKTAILS: Cocktail[] = [
         volume: "0.5 oz",
       },
     ],
-    img: "https://www.thecocktaildb.com/images/media/drink/txustu1473344310.jpg",
+    img: "/elks-own-dam-i.jpg",
   },
   {
     name: "Mojito",
@@ -410,7 +410,7 @@ export const COCKTAILS: Cocktail[] = [
         volume: "1 oz",
       },
     ],
-    img: "https://www.thecocktaildb.com/images/media/drink/metwgh1606770327.jpg",
+    img: "/mojito-mohamed-olwy.jpg",
   },
   {
     name: "Mockito",
@@ -440,7 +440,7 @@ export const COCKTAILS: Cocktail[] = [
       },
     ],
     isAlcoholfree: true,
-    img: "https://www.thecocktaildb.com/images/media/drink/2x8thr1504816928.jpg",
+    img: "/mockito-willians-huerta.jpg",
   },
   {
     name: "Mint Julep",
