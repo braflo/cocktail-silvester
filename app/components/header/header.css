@@ -20,6 +20,11 @@ header {
   gap: 12px;
 }
 
+.container a {
+  display: flex;
+  cursor: pointer;
+}
+
 h1 {
   font-size: 1.75rem;
   line-height: 1;

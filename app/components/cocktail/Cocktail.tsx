@@ -15,7 +15,7 @@ const Cocktail = ({ cocktail }: CocktailProps) => {
 
   return (
     <div className="cocktail">
-      <button onClick={() => router.push("/")} aria-label="Close">X</button>
+      <button onClick={() => router.back()} aria-label="Close">X</button>
       <Image className="img-detail" src={img} alt={name} width={400} height={400} />
       <div className="cocktail-info">
         <h3>{name}</h3>
