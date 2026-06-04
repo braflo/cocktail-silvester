@@ -6,7 +6,7 @@ export const COCKTAILS: Cocktail[] = [
     name: "Old Fashioned",
     slug: "old-fashioned",
     description:
-      "A classic cocktail that never goes out of style. The Old Fashioned is a simple drink that is easy to make and quick to enjoy.",
+      "Spirit-forward with a whisper of sweetness — bittersweet orange, rounded bourbon warmth, and just enough sugar to smooth the edges without hiding the spirit. One of the oldest cocktails on record: the word 'cocktail' was defined in 1806 as spirits, sugar, water, and bitters. This is essentially that definition in a glass.",
     ingredients: [
       {
         name: "Bourbon",
@@ -32,44 +32,10 @@ export const COCKTAILS: Cocktail[] = [
     img: "https://www.thecocktaildb.com/images/media/drink/vrwquq1478252802.jpg",
   },
   {
-    name: "Mojito",
-    slug: "mojito",
-    description:
-      "A classic Cuban cocktail. The Mojito is a simple drink that is easy to make and quick to enjoy.",
-    ingredients: [
-      {
-        name: "White Rum",
-        enumLink: Spirits.RumWhite,
-        volume: "2 oz",
-      },
-      {
-        name: "Lime Juice",
-        enumLink: Mixers.LimeJuice,
-        volume: "0.75 oz",
-      },
-      {
-        name: "Simple Syrup",
-        enumLink: Mixers.SimpleSyrup,
-        volume: "0.75 oz",
-      },
-      {
-        name: "Mint Leaves",
-        enumLink: Garnishes.MintLeaves,
-        volume: "6",
-      },
-      {
-        name: "Soda Water",
-        enumLink: Mixers.SodaWater,
-        volume: "1 oz",
-      },
-    ],
-    img: "https://www.thecocktaildb.com/images/media/drink/metwgh1606770327.jpg",
-  },
-  {
     name: "Dark 'n' Stormy",
     slug: "dark-n-stormy",
     description:
-      "A classic cocktail that never goes out of style. The Dark 'n' Stormy is a simple drink that is easy to make and quick to enjoy.",
+      "Deep and brooding — rich dark rum against sharp, fiery ginger beer, a collision of heat and sweetness that earns its name. A registered trademark of Gosling Brothers of Bermuda and the island's unofficial national drink, born from the rum sailors had and the ginger beer the British navy brought.",
     ingredients: [
       {
         name: "Black Rum",
@@ -93,7 +59,7 @@ export const COCKTAILS: Cocktail[] = [
     name: "Espresso Martini",
     slug: "espresso-martini",
     description:
-      "A classic cocktail that never goes out of style. The Espresso Martini is a simple drink that is easy to make and quick to enjoy.",
+      "Silky, intensely caffeinated, and bittersweet — shaken hard to produce the signature frothy crema on top. Created in 1983 by London bartender Dick Bradsell for a model who asked him to make something that would 'wake me up and then f*** me up.'",
     ingredients: [
       {
         name: "Vodka",
@@ -122,7 +88,7 @@ export const COCKTAILS: Cocktail[] = [
     name: "Gin Fizz",
     slug: "gin-fizz",
     description:
-      "A classic cocktail that never goes out of style. The Gin Fizz is a simple drink that is easy to make and quick to enjoy.",
+      "Light and effervescent with a clean citrus backbone — gin, lemon, sugar, and soda, deceptively simple and endlessly drinkable. The fizz family was first formally classified by Jerry Thomas in his 1876 bar guide. The Ramos Gin Fizz variant became so popular in 1900s New Orleans that Governor Huey Long once flew a bartender to New York just to make them.",
     ingredients: [
       {
         name: "Gin",
@@ -151,7 +117,7 @@ export const COCKTAILS: Cocktail[] = [
     name: "Daiquiri",
     slug: "daiquiri",
     description:
-      "A classic cocktail that never goes out of style. The Daiquiri is a simple drink that is easy to make and quick to enjoy.",
+      "Lean and perfectly balanced — rum, lime, and a whisper of sugar. Nothing hidden, nowhere to hide. Named after the Daiquirí mine near Santiago de Cuba, where American engineer Jennings Cox mixed local rum with lime juice in 1898. JFK reportedly had one every day.",
     ingredients: [
       {
         name: "White Rum",
@@ -175,7 +141,7 @@ export const COCKTAILS: Cocktail[] = [
     name: "Clover Club",
     slug: "clover-club",
     description:
-      "A classic cocktail that never goes out of style. The Clover Club is a simple drink that is easy to make and quick to enjoy.",
+      "Silky and delicate — gin softened by raspberry and rounded by aquafaba foam, tart and floral with surprising complexity. Named after a Philadelphia men's club that met at the Bellevue-Stratford Hotel in the 1890s, it vanished with Prohibition and was only properly revived by craft bartenders in the early 2000s.",
     ingredients: [
       {
         name: "Gin",
@@ -209,7 +175,7 @@ export const COCKTAILS: Cocktail[] = [
     name: "French 75",
     slug: "french-75",
     description:
-      "A classic cocktail that never goes out of style. The French 75 is a simple drink that is easy to make and quick to enjoy.",
+      "Crisp, celebratory, and sharply elegant — gin, lemon, and sugar lifted by champagne, a sour with ambition. Named after the French 75mm field gun, renowned for its devastating velocity. It was a favourite at Harry's New York Bar in Paris during both World Wars.",
     ingredients: [
       {
         name: "Gin",
@@ -238,7 +204,7 @@ export const COCKTAILS: Cocktail[] = [
     name: "Aviation",
     slug: "aviation",
     description:
-      "A classic cocktail that never goes out of style. The Aviation is a simple drink that is easy to make and quick to enjoy.",
+      "Pale violet and gently tart — gin meets Maraschino and a breath of Crème de Violette, a drink that tastes like it arrived from another era. Created to celebrate Aviation around 1916 in New York, it nearly vanished when Crème de Violette disappeared from the American market for decades. Its revival in the 2000s became one of the defining moments of the craft cocktail renaissance.",
     ingredients: [
       {
         name: "Gin",
@@ -267,7 +233,7 @@ export const COCKTAILS: Cocktail[] = [
     name: "A little Thyme off",
     slug: "a-little-thyme-off",
     description:
-      "A classic cocktail that never goes out of style. The A little Thyme off is a simple drink that is easy to make and quick to enjoy.",
+      "Herbal and bright — thyme syrup lends an earthy, slightly floral depth to sharp lemon and spicy ginger beer. A sophisticated alcohol-free original that doesn't apologise for missing the spirits.",
     ingredients: [
       {
         name: "Thyme Syrup",
@@ -294,64 +260,10 @@ export const COCKTAILS: Cocktail[] = [
     img: "https://www.thecocktaildb.com/images/media/drink/pbw4e51606766578.jpg",
   },
   {
-    name: "Mockito",
-    slug: "mockito",
-    description:
-      "A classic cocktail that never goes out of style. The Mockito is a simple drink that is easy to make and quick to enjoy.",
-    ingredients: [
-      {
-        name: "Mint Leaves",
-        enumLink: Garnishes.MintLeaves,
-        volume: "6",
-      },
-      {
-        name: "Lime Juice",
-        enumLink: Mixers.LimeJuice,
-        volume: "0.75 oz",
-      },
-      {
-        name: "Simple Syrup",
-        enumLink: Mixers.SimpleSyrup,
-        volume: "0.75 oz",
-      },
-      {
-        name: "Soda Water",
-        enumLink: Mixers.SodaWater,
-        volume: "1 oz",
-      },
-    ],
-    isAlcoholfree: true,
-    img: "https://www.thecocktaildb.com/images/media/drink/2x8thr1504816928.jpg",
-  },
-  {
-    name: "Mint Julep",
-    slug: "mint-julep",
-    description:
-      "A classic cocktail that never goes out of style. The Mint Julep is a simple drink that is easy to make and quick to enjoy.",
-    ingredients: [
-      {
-        name: "Bourbon",
-        enumLink: Spirits.Bourbon,
-        volume: "2 oz",
-      },
-      {
-        name: "Demerara Syrup",
-        enumLink: Mixers.DemeraraSyrup,
-        volume: "0.5 oz",
-      },
-      {
-        name: "Mint Leaves",
-        enumLink: Garnishes.MintLeaves,
-        volume: "4",
-      },
-    ],
-    img: "https://www.thecocktaildb.com/images/media/drink/squyyq1439907312.jpg",
-  },
-  {
     name: "Bees Knees",
     slug: "bees-knees",
     description:
-      "A classic cocktail that never goes out of style. The Bees Knees is a simple drink that is easy to make and quick to enjoy.",
+      "Honey-smooth and bright with lemon, the botanical gin threading everything together. 'The bee's knees' was Prohibition-era slang for the very best — and the honey was practical too, used to mask the rough edges of bathtub gin. One of the finest things to come out of that era.",
     ingredients: [
       {
         name: "Gin",
@@ -374,7 +286,7 @@ export const COCKTAILS: Cocktail[] = [
   {
     name: "Everythings gonna bee alright",
     slug: "everythings-gonna-bee-alright",
-    description: "Flos creation :)",
+    description: "Honey-sweet and citrus-bright with the grassy, slightly bitter edge of Club Mate and a thread of thyme running through it. Flo's alcohol-free original — perfect for the after you've already drank too much, and any other.",
     ingredients: [
       {
         name: "Lime Juice",
@@ -403,7 +315,7 @@ export const COCKTAILS: Cocktail[] = [
   {
     name: "Amaretto Sour",
     slug: "amaretto-sour",
-    description: "Babsi's favorite sweety cocktail :)",
+    description: "Plush and voluptuous — almond sweetness cut by sharp lemon and lifted by a velvety aquafaba foam, with a splash of bourbon for backbone. Bartender Jeffrey Morgenthaler rescued the Amaretto Sour from cheap-mix obscurity in 2012 with exactly this formula, and it's been one of the most-ordered cocktails ever since. Babsi's favourite sweety cocktail for good reason. :)",
     ingredients: [
       {
         name: "Amaretto",
@@ -436,7 +348,7 @@ export const COCKTAILS: Cocktail[] = [
   {
     name: "Elk's Own",
     slug: "elks-own",
-    description: "Fancy wine whisky christmas cockail",
+    description: "Warm and wintry — whisky and ruby port intertwine with bright lemon and a silky aquafaba texture, rich and aromatic. The Elk's Own was a staple of early 20th-century American lodge culture, its combination of whisky and fortified wine a nod to the Scots-Irish tradition of mixing the two. A drink for cold evenings and slow conversation.",
     ingredients: [
       {
         name: "Whisky",
@@ -465,5 +377,93 @@ export const COCKTAILS: Cocktail[] = [
       },
     ],
     img: "https://www.thecocktaildb.com/images/media/drink/txustu1473344310.jpg",
+  },
+  {
+    name: "Mojito",
+    slug: "mojito",
+    description:
+      "Bright and bracingly fresh — white rum lifted by sharp lime and cooling mint, lengthened with soda. Born in Havana, this drink has been attributed to everything from 16th-century pirates to Ernest Hemingway, who was known to frequent La Bodeguita del Medio, its most famous home.",
+    ingredients: [
+      {
+        name: "White Rum",
+        enumLink: Spirits.RumWhite,
+        volume: "2 oz",
+      },
+      {
+        name: "Lime Juice",
+        enumLink: Mixers.LimeJuice,
+        volume: "0.75 oz",
+      },
+      {
+        name: "Simple Syrup",
+        enumLink: Mixers.SimpleSyrup,
+        volume: "0.75 oz",
+      },
+      {
+        name: "Mint Leaves",
+        enumLink: Garnishes.MintLeaves,
+        volume: "6",
+      },
+      {
+        name: "Soda Water",
+        enumLink: Mixers.SodaWater,
+        volume: "1 oz",
+      },
+    ],
+    img: "https://www.thecocktaildb.com/images/media/drink/metwgh1606770327.jpg",
+  },
+  {
+    name: "Mockito",
+    slug: "mockito",
+    description:
+      "Everything you love about a Mojito, without the rum — crisp mint, tart lime, gentle sweetness, and a long soda finish. Refreshing enough that nobody will notice what's missing. The name is the joke.",
+    ingredients: [
+      {
+        name: "Mint Leaves",
+        enumLink: Garnishes.MintLeaves,
+        volume: "6",
+      },
+      {
+        name: "Lime Juice",
+        enumLink: Mixers.LimeJuice,
+        volume: "0.75 oz",
+      },
+      {
+        name: "Simple Syrup",
+        enumLink: Mixers.SimpleSyrup,
+        volume: "0.75 oz",
+      },
+      {
+        name: "Soda Water",
+        enumLink: Mixers.SodaWater,
+        volume: "1 oz",
+      },
+    ],
+    isAlcoholfree: true,
+    img: "https://www.thecocktaildb.com/images/media/drink/2x8thr1504816928.jpg",
+  },
+  {
+    name: "Mint Julep",
+    slug: "mint-julep",
+    description:
+      "Cold, sweet, and deeply minty with a slow bourbon warmth underneath — best drunk through a short straw to keep your nose in the mint. The official drink of the Kentucky Derby since 1938, where over 120,000 are served on race weekend. The word 'julep' traces back to the Arabic yulab, meaning rosewater.",
+    ingredients: [
+      {
+        name: "Bourbon",
+        enumLink: Spirits.Bourbon,
+        volume: "2 oz",
+      },
+      {
+        name: "Demerara Syrup",
+        enumLink: Mixers.DemeraraSyrup,
+        volume: "0.5 oz",
+      },
+      {
+        name: "Mint Leaves",
+        enumLink: Garnishes.MintLeaves,
+        volume: "4",
+      },
+    ],
+    img: "https://www.thecocktaildb.com/images/media/drink/squyyq1439907312.jpg",
   },
 ]
