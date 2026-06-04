@@ -14,7 +14,7 @@
     "react-dom": "^19"
   },
   "engines": {
-    "node": ">=24.x"
+    "node": ">=24"
   },
   "devDependencies": {
     "@types/node": "^24",
