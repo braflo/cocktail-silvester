@@ -4,6 +4,7 @@ import { Cocktail } from "./cocktail"
 export const COCKTAILS: Cocktail[] = [
   {
     name: "Old Fashioned",
+    slug: "old-fashioned",
     description:
       "A classic cocktail that never goes out of style. The Old Fashioned is a simple drink that is easy to make and quick to enjoy.",
     ingredients: [
@@ -32,6 +33,7 @@ export const COCKTAILS: Cocktail[] = [
   },
   {
     name: "Mojito",
+    slug: "mojito",
     description:
       "A classic Cuban cocktail. The Mojito is a simple drink that is easy to make and quick to enjoy.",
     ingredients: [
@@ -65,6 +67,7 @@ export const COCKTAILS: Cocktail[] = [
   },
   {
     name: "Dark 'n' Stormy",
+    slug: "dark-n-stormy",
     description:
       "A classic cocktail that never goes out of style. The Dark 'n' Stormy is a simple drink that is easy to make and quick to enjoy.",
     ingredients: [
@@ -88,6 +91,7 @@ export const COCKTAILS: Cocktail[] = [
   },
   {
     name: "Espresso Martini",
+    slug: "espresso-martini",
     description:
       "A classic cocktail that never goes out of style. The Espresso Martini is a simple drink that is easy to make and quick to enjoy.",
     ingredients: [
@@ -116,6 +120,7 @@ export const COCKTAILS: Cocktail[] = [
   },
   {
     name: "Gin Fizz",
+    slug: "gin-fizz",
     description:
       "A classic cocktail that never goes out of style. The Gin Fizz is a simple drink that is easy to make and quick to enjoy.",
     ingredients: [
@@ -144,6 +149,7 @@ export const COCKTAILS: Cocktail[] = [
   },
   {
     name: "Daiquiri",
+    slug: "daiquiri",
     description:
       "A classic cocktail that never goes out of style. The Daiquiri is a simple drink that is easy to make and quick to enjoy.",
     ingredients: [
@@ -167,6 +173,7 @@ export const COCKTAILS: Cocktail[] = [
   },
   {
     name: "Clover Club",
+    slug: "clover-club",
     description:
       "A classic cocktail that never goes out of style. The Clover Club is a simple drink that is easy to make and quick to enjoy.",
     ingredients: [
@@ -200,6 +207,7 @@ export const COCKTAILS: Cocktail[] = [
   },
   {
     name: "French 75",
+    slug: "french-75",
     description:
       "A classic cocktail that never goes out of style. The French 75 is a simple drink that is easy to make and quick to enjoy.",
     ingredients: [
@@ -228,6 +236,7 @@ export const COCKTAILS: Cocktail[] = [
   },
   {
     name: "Aviation",
+    slug: "aviation",
     description:
       "A classic cocktail that never goes out of style. The Aviation is a simple drink that is easy to make and quick to enjoy.",
     ingredients: [
@@ -256,6 +265,7 @@ export const COCKTAILS: Cocktail[] = [
   },
   {
     name: "A little Thyme off",
+    slug: "a-little-thyme-off",
     description:
       "A classic cocktail that never goes out of style. The A little Thyme off is a simple drink that is easy to make and quick to enjoy.",
     ingredients: [
@@ -285,6 +295,7 @@ export const COCKTAILS: Cocktail[] = [
   },
   {
     name: "Mockito",
+    slug: "mockito",
     description:
       "A classic cocktail that never goes out of style. The Mockito is a simple drink that is easy to make and quick to enjoy.",
     ingredients: [
@@ -314,6 +325,7 @@ export const COCKTAILS: Cocktail[] = [
   },
   {
     name: "Mint Julep",
+    slug: "mint-julep",
     description:
       "A classic cocktail that never goes out of style. The Mint Julep is a simple drink that is easy to make and quick to enjoy.",
     ingredients: [
@@ -337,6 +349,7 @@ export const COCKTAILS: Cocktail[] = [
   },
   {
     name: "Bees Knees",
+    slug: "bees-knees",
     description:
       "A classic cocktail that never goes out of style. The Bees Knees is a simple drink that is easy to make and quick to enjoy.",
     ingredients: [
@@ -360,6 +373,7 @@ export const COCKTAILS: Cocktail[] = [
   },
   {
     name: "Everythings gonna bee alright",
+    slug: "everythings-gonna-bee-alright",
     description: "Flos creation :)",
     ingredients: [
       {
@@ -388,11 +402,12 @@ export const COCKTAILS: Cocktail[] = [
   },
   {
     name: "Amaretto Sour",
+    slug: "amaretto-sour",
     description: "Babsi's favorite sweety cocktail :)",
     ingredients: [
       {
         name: "Amaretto",
-        enumLink: Spirits.Bourbon,
+        enumLink: Spirits.Amaretto,
         volume: "1.5 oz",
       },
       {
@@ -408,7 +423,7 @@ export const COCKTAILS: Cocktail[] = [
       {
         name: "Simple Syrup",
         enumLink: Mixers.SimpleSyrup,
-        volume: "0.75 oz"
+        volume: "0.75 oz",
       },
       {
         name: "Aquafaba",
@@ -420,34 +435,35 @@ export const COCKTAILS: Cocktail[] = [
   },
   {
     name: "Elk's Own",
+    slug: "elks-own",
     description: "Fancy wine whisky christmas cockail",
     ingredients: [
       {
         name: "Whisky",
         enumLink: Spirits.Whiskey,
-        volume: "1 oz"
+        volume: "1 oz",
       },
       {
         name: "Ruby Port Wine",
-        enumLink: Spirits.Bourbon,
-        volume: "0.75 oz"
+        enumLink: Spirits.PortWine,
+        volume: "0.75 oz",
       },
       {
         name: "Lemon Juice",
         enumLink: Mixers.LemonJuice,
-        volume: "0.75 oz"
+        volume: "0.75 oz",
       },
       {
         name: "Aquafaba",
         enumLink: Mixers.Aquafaba,
-        volume: "0.75 oz"
+        volume: "0.75 oz",
       },
       {
         name: "Demerara Syrup",
         enumLink: Mixers.DemeraraSyrup,
-        volume: "0.5 oz"
+        volume: "0.5 oz",
       },
     ],
-    img: "https://www.thecocktaildb.com/images/media/drink/txustu1473344310.jpg"
-  }
+    img: "https://www.thecocktaildb.com/images/media/drink/txustu1473344310.jpg",
+  },
 ]

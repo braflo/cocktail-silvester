@@ -8,6 +8,7 @@ export interface Ingredient {
 
 export interface Cocktail {
   name: string
+  slug: string
   description: string
   ingredients: Ingredient[]
   img: string

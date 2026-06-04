@@ -1,11 +1,13 @@
 FROM node:24
 
+RUN corepack enable && corepack prepare pnpm@latest --activate
+
 WORKDIR /app
 
-COPY package.json ./
+COPY package.json pnpm-lock.yaml ./
 
-RUN npm install
+RUN pnpm install --frozen-lockfile
 
 COPY . .
 
-CMD ["npm", "run", "dev"]
+CMD ["pnpm", "run", "dev"]

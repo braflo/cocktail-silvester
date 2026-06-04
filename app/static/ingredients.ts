@@ -1,11 +1,12 @@
 export enum Spirits {
-  // add most common spirits
   Bourbon = "Spirits-0",
   Gin = "Spirits-1",
   RumBlack = "Spirits-2",
   RumWhite = "Spirits-3",
   Vodka = "Spirits-4",
-  Whiskey = "Spirits-5"
+  Whiskey = "Spirits-5",
+  PortWine = "Spirits-6",
+  Amaretto = "Spirits-7",
 }
 
 export enum Mixers {
@@ -20,13 +21,12 @@ export enum Mixers {
   LemonJuice = "Mixers-8",
   LimeJuice = "Mixers-9",
   MarashinoLiqueur = "Mixers-10",
-  MintLeaves = "Mixers-11",
-  RaspberrySyrup = "Mixers-12",
-  SimpleSyrup = "Mixers-13",
-  SodaWater = "Mixers-14",
-  ThymeSyrup = "Mixers-15",
-  HoneySyrup = "Mixers-16",
-  ClubMate = "Mixers-17",
+  RaspberrySyrup = "Mixers-11",
+  SimpleSyrup = "Mixers-12",
+  SodaWater = "Mixers-13",
+  ThymeSyrup = "Mixers-14",
+  HoneySyrup = "Mixers-15",
+  ClubMate = "Mixers-16",
 }
 
 export enum Garnishes {
