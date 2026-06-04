@@ -315,7 +315,7 @@ export const COCKTAILS: Cocktail[] = [
   {
     name: "Amaretto Sour",
     slug: "amaretto-sour",
-    description: "Plush and voluptuous — almond sweetness cut by sharp lemon and lifted by a velvety aquafaba foam, with a splash of bourbon for backbone. Bartender Jeffrey Morgenthaler rescued the Amaretto Sour from cheap-mix obscurity in 2012 with exactly this formula, and it's been one of the most-ordered cocktails ever since. Babsi's favourite sweety cocktail for good reason. :)",
+    description: "Plush and voluptuous — almond sweetness cut by sharp lemon and lifted by a velvety aquafaba foam, with a splash of bourbon for backbone. Bartender Jeffrey Morgenthaler rescued the Amaretto Sour from cheap-mix obscurity in 2012 with exactly this formula, and it's been one of the most-ordered cocktails ever since. Babsi's favourite sweet cocktail for good reason. :)",
     ingredients: [
       {
         name: "Amaretto",
