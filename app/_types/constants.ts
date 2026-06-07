@@ -230,6 +230,31 @@ export const COCKTAILS: Cocktail[] = [
     img: "/aviation-masuma-rahaman-2.jpg",
   },
   {
+    name: "Shakerato",
+    slug: "shakerato",
+    description:
+      "Bittersweet and ice-cold with a thick, frothy crown — espresso and black tea shaken hard until silky, the demerara just rounding off the edge. Born on Italian summer terraces as caffè shakerato, it's the espresso's answer to a cocktail: no spirit, all attitude.",
+    ingredients: [
+      {
+        name: "Espresso",
+        enumLink: Mixers.Espresso,
+        volume: "2 oz"
+      },
+      {
+        name: "Black Tea",
+        enumLink: Mixers.BlackTea,
+        volume: "2 oz"
+      },
+      {
+        name: "Demerara Syrup",
+        enumLink: Mixers.DemeraraSyrup,
+        volume: "0.25 oz"
+      }
+    ],
+    isAlcoholfree: true,
+    img: "/shakerato-kuiyibo.jpg"
+  },
+  {
     name: "A little Thyme off",
     slug: "a-little-thyme-off",
     description:

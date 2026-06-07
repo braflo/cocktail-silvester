@@ -27,6 +27,7 @@ export enum Mixers {
   ThymeSyrup = "Mixers-14",
   HoneySyrup = "Mixers-15",
   ClubMate = "Mixers-16",
+  BlackTea = "Mixers-17"
 }
 
 export enum Garnishes {
